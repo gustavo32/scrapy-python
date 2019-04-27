@@ -74,5 +74,6 @@ try:
           "\t\t\t|\tRaios UV: ", lista[5][0], "\t|")
     print(" -----------------------------------------------------------------------")
 
+# tratar erro de cidade não encontrada
 except IndexError:
     print("Cidade Não Encontrada!")
